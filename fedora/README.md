@@ -11,6 +11,7 @@ gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 ```
 
 ## Nvidia Drivers
+https://rpmfusion.org/Howto/NVIDIA#Installing_the_drivers
 ```bash
 sudo dnf install -y https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
 sudo dnf update -y
