@@ -3,6 +3,12 @@
 sudo dnf update -y
 ```
 
+## Fedora Setings
+```bash
+gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'
+gsettings set org.gnome.desktop.peripherals.touchpad disable-while-typing false
+gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
+```
 ## Nvidia Drivers
 ```bash
 sudo dnf install https://download1.rpmfusion.org/free/fedora/rpmfusion-free-release-$(rpm -E %fedora).noarch.rpm https://download1.rpmfusion.org/nonfree/fedora/rpmfusion-nonfree-release-$(rpm -E %fedora).noarch.rpm
