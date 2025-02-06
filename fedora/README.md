@@ -8,6 +8,7 @@ sudo dnf update -y
 gsettings set org.gnome.desktop.peripherals.mouse accel-profile 'flat'
 gsettings set org.gnome.desktop.peripherals.touchpad disable-while-typing false
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+gsettings set org.gnome.shell enable-hot-corners false
 ```
 
 ## Nvidia Drivers
